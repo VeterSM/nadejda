@@ -1,0 +1,59 @@
+@mixin font-size($sizeValue: 16, $line: $sizeValue * 1.5) {
+  font-size: ($sizeValue) + px;
+  font-size: ($sizeValue / 16) + rem;
+}
+
+@mixin line-height($sizeValue: 16, $line: $sizeValue * 1.5) {
+  line-height: ($line) + px;
+  line-height: ($line / 20) + rem;
+}
+
+@mixin width($sizeValue: 16, $line: $sizeValue * 1.5) {
+  width: ($sizeValue) + px;
+  width: ($sizeValue / 16) + rem;
+}
+
+@mixin height($sizeValue: 16, $line: $sizeValue * 1.5) {
+  height: ($sizeValue) + px;
+  height: ($sizeValue / 16) + rem;
+}
+
+@mixin margin-top($sizeValue: 16, $line: $sizeValue * 1.5) {
+  margin-top: ($sizeValue) + px;
+  margin-top: ($sizeValue / 16) + rem;
+}
+
+@mixin margin-bottom($sizeValue: 16, $line: $sizeValue * 1.5) {
+  margin-bottom: ($sizeValue) + px;
+  margin-bottom: ($sizeValue / 16) + rem;
+}
+
+@mixin margin-left($sizeValue: 16, $line: $sizeValue * 1.5) {
+  margin-left: ($sizeValue) + px;
+  margin-left: ($sizeValue / 16) + rem;
+}
+
+@mixin margin-right($sizeValue: 16, $line: $sizeValue * 1.5) {
+  margin-right: ($sizeValue) + px;
+  margin-right: ($sizeValue / 16) + rem;
+}
+
+@mixin padding-bottom($sizeValue: 16, $line: $sizeValue * 1.5) {
+  padding-bottom: ($sizeValue) + px;
+  padding-bottom: ($sizeValue / 16) + rem;
+}
+
+@mixin padding-top($sizeValue: 16, $line: $sizeValue * 1.5) {
+  padding-top: ($sizeValue) + px;
+  padding-top: ($sizeValue / 16) + rem;
+}
+
+@mixin padding-left($sizeValue: 16, $line: $sizeValue * 1.5) {
+  padding-left: ($sizeValue) + px;
+  padding-left: ($sizeValue / 16) + rem;
+}
+
+@mixin padding-right($sizeValue: 16, $line: $sizeValue * 1.5) {
+  padding-right: ($sizeValue) + px;
+  padding-right: ($sizeValue / 16) + rem;
+}
